@@ -2,6 +2,8 @@ import azure.functions as func
 import datetime
 import json
 import logging
+import pydantic_core
+
 
 app = func.FunctionApp()
 

@@ -55,7 +55,7 @@ stages:
     - task: AzureFunctionApp@2
       displayName: 'Deploy Azure Function App'
       inputs:
-        connectedServiceNameARM: 'JesumeWIF-v3'
+        connectedServiceNameARM: 'Jesume2WIF'
         appType: 'functionApp'
         appName: '$(functionAppName)'
         package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
